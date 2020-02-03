@@ -15,15 +15,15 @@ so we do not want to withhold this from you.
 
 ### License
 Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
-please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
-in which case you may kindly reach out to our legal staff at IBM Research.
+please make sure you openly publish your entire code base under the same terms. This might not suite your commercial project,
+in which case you may kindly reach out to our legal staff at IBM Research to obtain a special license.
 
-Further note that CPC currently has **2** pending patents, which means you cannot simply implement the protected principle(s) of CPC yourself
-and use it in your commercial project without obtaining a license from IBM Research.
+Further note that CPC currently has **2** pending patents, which means you cannot simply implement the protected principle(s)
+of CPC yourself and use it in your projects without obtaining a license from IBM Research.
 
 ## Publications
 - Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
-- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." arXiv preprint arXiv:1912.06723 (2019).
+- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." 2020 ACM Intelligent User Interfaces (IUI). IUI, 2020.
 
 ## Users
 ### Default settings
