@@ -14,7 +14,7 @@ However, the applications are beyond our imagination, so we do not want to withh
 
 ##### Contact: daniel.karl@ibm.com
 
-#### License
+### License
 Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
 please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research.
@@ -25,13 +25,13 @@ in which case you may kindly reach out to our legal staff at IBM Research.
 - Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." arXiv preprint arXiv:1912.06723 (2019).
 
 ## Users
-- Default settings
+### Default settings
 ```
 // init CPC component (default settings)
 let cpc:CPC = new CPC("my_dom_id", dataset);
 ```
 
-- Custom settings
+### Custom settings
 ```
 // init CPC component with custom settings
 let config:CPCConfiguration = new CPCConfiguration();
@@ -43,7 +43,7 @@ config.deselectOthersOnLineSelect = true;
 let cpc:CPC = new CPC("my_dom_id", dataset, config);
 ```
 
-- Configuration parameters
+#### Configuration parameters
 
 | Parameter | Type | default | Description | Since |
 |---|---|---|---|---|
