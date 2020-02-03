@@ -9,7 +9,7 @@ AI Automation, specifically to visualize machine learning pipelines, and their r
 
 However, the applications are beyond our imagination, so we do not want to withhold this from this world.
 
-##### License
+#### License
 Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
 please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research.
