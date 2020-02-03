@@ -58,8 +58,8 @@ let cpc:CPC = new CPC("my_dom_id", dataset, config);
 | deselectOthersOnLineSelect | bool | true | When user selects line, other lines are deselected automatically. | v1.0.0 |
 
 ### Acknowledgements
-* The term *Conditional* has been borrowed from Hendrik Strobelt, after my complaint in the hallways of IBM Research about 
-"Nested Parallel Coordinates" already being taken hostage by some related but different discovery. 
+* The term *Conditional* has been borrowed from Hendrik Strobelt, after my complaint about "Nested/Hierarchical Parallel Coordinates" not
+perfectly describing the discovery. Besides, "Nested" was already being used by some related, but different Parallel Coordinates technique.
 Clearly, "Conditional" was the term I was looking for.
 * Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am exhilarated for her having allowed me
 to polish the revision in the morning, and still saying *Yes!* to my life only a few hours later.
