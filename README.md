@@ -6,9 +6,9 @@ additionally revealed information is conditioned on the clicked value. CPC is im
 such that categorical values in sub-axes can again be expanded.
 
 CPC is a patent pending by International Business Machines Corporation. Its original use is in the area of
-AI Automation, specifically to visualize machine learning pipelines, and their respective hyperparameters simultaneously.
+AI Automation, specifically to visualize machine learning pipelines and their respective hyperparameters simultaneously.
 
-However, the applications are beyond our imagination, so we do not want to withhold this from this world.
+However, other applications are way beyond our imagination, so we do not want to withhold this from you.
 
 ##### Version: 1.0.0
 
@@ -19,6 +19,8 @@ Please note the source code is published under terms of GPL-3. Therefore, should
 please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research.
 
+Further note that CPC has 2 pending patents, which means you cannot simply implement the protected principle(s) of CPC yourself
+and use it in your commercial project without obtaining a license from IBM Research.
 
 ## Publications
 - Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
