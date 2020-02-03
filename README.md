@@ -5,10 +5,8 @@
 ##### Contact: daniel.karl@ibm.com
 
 ### Publications
-- Daniel Karl I. Weidele. Conditional Parallel Coordinates. arXiv preprint arXiv:1906.07716. 2019.
-https://arxiv.org/abs/1906.07716
-
-- Daniel Karl I. Weidele, Justin Weisz, Eno Oduor, Michael Muller, Josh Andres, Alexander Gray, Dakuo Wang. AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates. In submission to IUI20.
+- Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
+- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." arXiv preprint arXiv:1912.06723 (2019).
 
 ### Users
 - Default settings
