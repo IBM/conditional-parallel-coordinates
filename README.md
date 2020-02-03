@@ -11,7 +11,7 @@ so we do not want to withhold this from you.
 
 ##### Version: 1.0.0
 
-##### Contact: daniel.karl@ibm.com [@daniel-karl]( https://github.com/daniel-karl )
+##### Contact: daniel.karl@ibm.com
 
 ### License
 Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
