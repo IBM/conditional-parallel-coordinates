@@ -58,7 +58,7 @@ let cpc:CPC = new CPC("my_dom_id", dataset, config);
 | deselectOthersOnLineSelect | bool | true | When user selects line, other lines are deselected automatically. | v1.0.0 |
 
 ### Acknowledgements
-* The *conditional* character of this visualization has been pointed out by Hendrik Strobelt, otherwise this probably would 
+* The *conditional* character of this visualization technique has been pointed out by Hendrik Strobelt, otherwise this probably would 
 have been called Hierarchical or Nested Parallel Coordinates.
 * Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am thankful for her allowing me
 to polish the revision, and still saying yes to me a few hours later on the same day.
