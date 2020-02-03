@@ -1,11 +1,5 @@
 # Conditional Parallel Coordinates
 
-##### Version: 1.0.0
-
-##### Contact: daniel.karl@ibm.com
-
-#### About
-
 Conditional Parallel Coordinates (CPC) are a generalization of the Parallel Coordinates visualization, where 
 a categorical value on axes can be clicked, to expand another level of Parallel Coordinates on its behalf. The
 additionally revealed information is conditioned on the clicked value. CPC is implemented recursively, 
@@ -16,17 +10,21 @@ AI Automation, specifically to visualize machine learning pipelines, and their r
 
 However, the applications are beyond our imagination, so we do not want to withhold this from this world.
 
+##### Version: 1.0.0
+
+##### Contact: daniel.karl@ibm.com
+
 #### License
 Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
 please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research.
 
 
-### Publications
+## Publications
 - Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
 - Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." arXiv preprint arXiv:1912.06723 (2019).
 
-### Users
+## Users
 - Default settings
 ```
 // init CPC component (default settings)
