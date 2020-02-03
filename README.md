@@ -9,9 +9,9 @@ CPC's original use is in the area of AI Automation, specifically to visualize ma
 their respective hyperparameters simultaneously. However, other applications are way beyond our imagination, 
 so we do not want to withhold this from you.
 
-##### Author: [#IBM]( https://github.com/IBM ) [@daniel-karl]( https://github.com/daniel-karl )
-
 ##### Version: 1.0.0
+
+##### Author: [#IBM]( https://github.com/IBM ) [@daniel-karl]( https://github.com/daniel-karl )
 
 ##### Contact: daniel.karl@ibm.com
 
