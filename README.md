@@ -21,6 +21,12 @@ in which case you may kindly reach out to our legal staff at IBM Research to obt
 Further note that CPC currently has **2** pending patents, which means you cannot simply implement the protected principle(s)
 of CPC yourself and use it in your projects without obtaining a license from IBM Research.
 
+### Acknowledgements
+* The *conditional* character of this visualization has been pointed out by Hendrik Strobelt, otherwise this would have been
+called Hierarchical or Nested Parallel Coordinates.
+* Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am thankful for her allowing me
+to polish the revision, and still saying yes to me a few hours later on the same day.
+
 ## Publications
 - Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
 - Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." 2020 ACM Intelligent User Interfaces (IUI). ACM, 2020.
