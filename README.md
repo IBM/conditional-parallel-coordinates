@@ -22,8 +22,8 @@ Further note that CPC currently has **2** pending patents, which means you canno
 of CPC yourself and use it in your projects without obtaining a license from IBM Research.
 
 ### Acknowledgements
-* The *conditional* character of this visualization has been pointed out by Hendrik Strobelt, otherwise this would have been
-called Hierarchical or Nested Parallel Coordinates.
+* The *conditional* character of this visualization has been pointed out by Hendrik Strobelt, otherwise this probably would 
+have been called Hierarchical or Nested Parallel Coordinates.
 * Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am thankful for her allowing me
 to polish the revision, and still saying yes to me a few hours later on the same day.
 
