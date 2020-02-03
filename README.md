@@ -5,10 +5,9 @@ a categorical value on axes can be clicked, to expand another level of Parallel 
 additionally revealed information is conditioned on the clicked value. CPC is implemented recursively, 
 such that categorical values in sub-axes can again be expanded.
 
-CPC is a patent pending by International Business Machines Corporation. Its original use is in the area of
-AI Automation, specifically to visualize machine learning pipelines and their respective hyperparameters simultaneously.
-
-However, other applications are way beyond our imagination, so we do not want to withhold this from you.
+CPC's original use is in the area of AI Automation, specifically to visualize machine learning pipelines and 
+their respective hyperparameters simultaneously. However, other applications are way beyond our imagination, 
+so we do not want to withhold this from you.
 
 ##### Version: 1.0.0
 
