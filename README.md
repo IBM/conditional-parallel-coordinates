@@ -23,7 +23,7 @@ of CPC yourself and use it in your projects without obtaining a license from IBM
 
 ## Publications
 - Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
-- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." 2020 ACM Intelligent User Interfaces (IUI). IUI, 2020.
+- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." 2020 ACM Intelligent User Interfaces (IUI). ACM, 2020.
 
 ## Users
 ### Default settings
