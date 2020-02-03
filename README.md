@@ -19,7 +19,7 @@ Please note the source code is published under terms of GPL-3. Therefore, should
 please make sure you openly publish your entire code base under the same conditions. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research.
 
-Further note that CPC has 2 pending patents, which means you cannot simply implement the protected principle(s) of CPC yourself
+Further note that CPC currently has *2* pending patents, which means you cannot simply implement the protected principle(s) of CPC yourself
 and use it in your commercial project without obtaining a license from IBM Research.
 
 ## Publications
