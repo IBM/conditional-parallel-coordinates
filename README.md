@@ -61,4 +61,4 @@ let cpc:CPC = new CPC("my_dom_id", dataset, config);
 * The *conditional* character of this visualization technique has been pointed out by Hendrik Strobelt. Otherwise this probably would 
 have been called Hierarchical or Nested Parallel Coordinates.
 * Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am exhilarated for her having allowed me
-to polish the revision in the morning, while still saying *Yes!* to my life only a few hours later.
+to polish the revision in the morning, and still saying *Yes!* to my life only a few hours later.
