@@ -1,5 +1,5 @@
 {
-  "name": "@ibm-vail/cpc",
+  "name": "@ibm/cpc",
   "version": "1.0.0",
   "main": "src/index.ts",
   "types": "dist/index",
@@ -44,5 +44,6 @@
   "files": [
     "dist/src/**/*"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "repository": "git://github.com/IBM/conditional-parallel-coordinates.git",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/IBM" }
 }
