@@ -6,7 +6,7 @@ Conditional Parallel Coordinates (CPC) are a generalization of the Parallel Coor
 
 CPC's original use is in the area of Visualization of AI and machine learning pipelines, specifically to visualize pipeline steps, their respective hyperparameters, as well as resulting evaluation metrics simultaneously. However, there are too many other possible applications, so we do not want to withhold this from you.
 
-##### Version: 1.0.2
+##### Latest version: 1.0.3
 
 ##### Contact: daniel.karl@ibm.com
 
