@@ -13,14 +13,6 @@ so we do not want to withhold this from you.
 
 ##### Contact: daniel.karl@ibm.com
 
-### License
-Please note the source code is published under terms of GPL-3. Therefore, should you intend to include CPC in your projects,
-please make sure you openly publish your entire code base under the same terms. This might not suite your commercial project,
-in which case you may kindly reach out to our legal staff at IBM Research to obtain a special license.
-
-Further note that CPC currently has filed patents, which means you cannot simply implement the protected principle(s)
-of CPC yourself and use it in your projects without obtaining a license from IBM Research.
-
 ## Publications
 
 - Daniel Karl I. Weidele. 2019. Conditional Parallel Coordinates. In 2019 IEEE Visualization Conference (VIS), 20-25 October, Vancouver, BC, Canada. IEEE. https://doi.org/10.1109/VISUAL.2019.8933632
@@ -82,7 +74,3 @@ npm run build:package
 npm version patch
 npm publish
 ```
-
-### Acknowledgements
-* The term *Conditional* has been borrowed from Hendrik Strobelt, after my complaint about "Nested/Hierarchical Parallel Coordinates" not perfectly describing the discovery. Besides, "Nested" was already being used by some related, but different Parallel Coordinates technique. Clearly, "Conditional" was the term I was looking for.
-* Deadline of the VIS 2019 submission was also the wedding date of Loraine Franke-Weidele. I am exhilarated for her having allowed me to polish the revision in the morning, and still saying *Yes!* to my life only a few hours later.
