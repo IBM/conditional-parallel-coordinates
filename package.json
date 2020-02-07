@@ -18,7 +18,7 @@
     "ww": "webpack --watch --mode development",
     "prepublishOnly": "npm run build",
     "preversion": "npm run build",
-    "version": "npm run format && git add -A src",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
@@ -43,5 +43,7 @@
     "dist/src/**/*"
   ],
   "repository": "git://github.com/IBM/conditional-parallel-coordinates.git",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/IBM" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/IBM"
+  }
 }
