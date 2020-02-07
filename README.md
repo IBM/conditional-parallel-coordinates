@@ -18,12 +18,19 @@ Please note the source code is published under terms of GPL-3. Therefore, should
 please make sure you openly publish your entire code base under the same terms. This might not suite your commercial project,
 in which case you may kindly reach out to our legal staff at IBM Research to obtain a special license.
 
-Further note that CPC currently has **2** pending patents, which means you cannot simply implement the protected principle(s)
+Further note that CPC currently has filed patents, which means you cannot simply implement the protected principle(s)
 of CPC yourself and use it in your projects without obtaining a license from IBM Research.
 
 ## Publications
-- Weidele, Daniel Karl I. "Conditional Parallel Coordinates." 2019 IEEE Visualization Conference (VIS). IEEE, 2019.
-- Weidele, Daniel Karl I., et al. "AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates." 2020 ACM Intelligent User Interfaces (IUI). ACM, 2020.
+
+- Daniel Karl I. Weidele. 2019. Conditional Parallel Coordinates. In 2019 IEEE Visualization Conference (VIS), 20-25 October, Vancouver, BC, Canada. IEEE. https://doi.org/10.1109/VISUAL.2019.8933632
+- Daniel Karl I. Weidele, Justin D. Weisz, Eno Oduor, Michael Muller, Josh Andres, Alexander Gray and Dakuo Wang. 2020. AutoAIViz: Opening the Blackbox of Automated Artificial Intelligence with Conditional Parallel Coordinates. In 25th International Conference on Intelligent User Interfaces (IUI ’20), March 17–20, 2020, Cagliari, Italy. ACM, New York, NY, USA. https://doi.org/10.1145/3377325.3377538</li>
+
+## Demo
+```
+npm install
+npm start
+```
 
 ## Users
 ### Default settings
@@ -56,6 +63,25 @@ let cpc:CPC = new CPC("my_dom_id", dataset, config);
 | choiceLabels | map | null | Override choice labels (*value*) by ID (*key*). | v1.0.0 |
 | collapseOthersOnChoiceExpand | bool | true | When user expands a choice, other choices are collapsed automatically. | v1.0.0 |
 | deselectOthersOnLineSelect | bool | true | When user selects line, other lines are deselected automatically. | v1.0.0 |
+
+## Developers
+
+### Build
+```
+npm install
+npm run build
+```
+
+### Package
+```
+npm run build:package
+```
+
+### Publish
+```
+npm version patch
+npm publish
+```
 
 ### Acknowledgements
 * The term *Conditional* has been borrowed from Hendrik Strobelt, after my complaint about "Nested/Hierarchical Parallel Coordinates" not

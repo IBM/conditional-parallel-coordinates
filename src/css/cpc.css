@@ -1,0 +1,210 @@
+svg._cpc {
+    shape-rendering: geometricPrecision;
+    overflow: visible;
+    fill: rgb(88, 106, 114);
+    font-weight: 300;
+}
+
+svg._cpc.editing path.line {
+    pointer-events: none;
+}
+
+svg._cpc rect.choice_container {
+    fill: rgba(255, 255, 255, 0.85);
+    stroke-width: 0;
+}
+
+svg._cpc rect.choice_container.collapsed {
+    fill: none;
+}
+
+svg._cpc rect.choice_container.collapsible.expanded {
+    stroke-width: 1;
+    stroke: #DFE3E6;
+}
+
+svg._cpc rect.choice_container.collapsible.expanded:HOVER {
+    fill: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    stroke-width: 2;
+    stroke: rgb(0, 182, 204);
+}
+
+svg._cpc path.axis {
+  stroke-dasharray: 4;
+}
+
+svg._cpc svg.axis, svg._cpc svg.choice {
+    overflow: visible;
+}
+
+svg._cpc path.threshold {
+    stroke-width: 3;
+    stroke: black;
+    stroke-dasharray: 4;
+}
+
+svg._cpc rect.axis_container {
+    /* fill: none; */
+    stroke-width: 0;
+}
+
+svg._cpc rect.axis_container.uneditable {
+    cursor: not-allowed;
+}
+
+svg._cpc circle, svg._cpc text {
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+
+svg._cpc circle.choice {
+    fill: white;
+    stroke: rgb(88, 106, 114);
+    stroke-width: 0.5;
+}
+
+svg._cpc circle.choice.collapsible {
+    fill: white;
+    stroke: rgb(0, 182, 204);
+    stroke-width: 2px;
+}
+
+/* svg._cpc text.choice_label.collapsible { */
+    /* stroke: black; */
+/* } */
+
+svg._cpc circle.choice.collapsible:HOVER {
+    cursor: pointer;
+    fill: rgba(223, 227, 230, 0.8);
+}
+
+svg._cpc.editing circle.choice:HOVER {
+    cursor: pointer;
+    stroke: rgb(204, 0, 0);
+    stroke-width: 2px;
+}
+
+svg._cpc.editing circle.choice.selected {
+    fill: rgba(204, 0, 0, 0.2);
+}
+
+svg._cpc text {
+    pointer-events: none;
+}
+
+svg._cpc text.axis_label {
+    font-weight: 400;
+}
+
+svg._cpc path.axis, svg._cpc path.tick {
+    stroke: rgba(185, 185, 185, 1);
+    pointer-events: none;
+}
+
+svg._cpc path.line {
+    stroke: black;
+    stroke-width: 1;
+    stroke-opacity: 0.3;
+    fill: none;
+}
+
+svg._cpc path.line.highlighted {
+    stroke: rgb(0, 182, 204);
+    /* stroke: #3D70B2;*/
+    stroke-opacity: 1;
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+svg._cpc path.line.selected {
+    stroke: rgb(161, 39, 204);
+    /* stroke: #3D70B2;*/
+    stroke-opacity: 1;
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+svg._cpc path.line.editing {
+    stroke: #CC0A04;
+    pointer-events: none;
+    stroke-width: 4px;
+    stroke-opacity: 0.3;
+}
+
+svg._cpc text.tick_label {
+    text-anchor: start;
+    alignment-baseline: bottom;
+}
+
+svg._cpc text.line_tick {
+    text-anchor: end;
+    font-weight: 400;
+    display: none;
+}
+
+svg._cpc text.line_tick.editing {
+    display: block;
+}
+
+svg._cpc text.line_tick.up {
+    transform: translateY(-10px);
+    alignment-baseline: bottom;
+}
+
+svg._cpc text.line_tick.down {
+    transform: translateY(10px);
+    alignment-baseline: top;
+}
+
+div.line_tick_boxed {
+    background: black;
+    color: white;
+    padding: 0px 3px;
+    border-radius: 3px;
+    font-weight: 400;
+    display: none;
+    position: absolute;
+    font-size: 11px;
+}
+
+div.line_tick_boxed.up {
+    transform: translateX(-50%) translateY(-19px);
+}
+
+div.line_tick_boxed.down {
+    transform: translateX(-50%) translateY(5px);
+}
+
+div.cpc_tooltip {
+    position: absolute;
+    /* border: 1px solid black; */
+    /* background: white; */
+    padding: 5px;
+}
+
+div.line_tick_boxed.up:after {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 1px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 4px solid #000;
+    clear: both;
+}
+
+div.line_tick_boxed.down:after {
+    content: '';
+    position: absolute;
+    bottom: 13px;
+    right: 1px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 4px solid #000;
+    clear: both;
+}

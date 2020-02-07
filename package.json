@@ -1,0 +1,48 @@
+{
+  "name": "@ibm-vail/cpc",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "dist/index",
+  "license": "GPL-3.0",
+  "author": "IBM Research, Visual AI Lab, Daniel Karl I. Weidele",
+  "private": true,
+  "scripts": {
+    "clean_dist": "rm -rf dist",
+    "lint": "tslint -p . -c tslint.json",
+    "copy_static": "mkdirp ./dist/src/css && cp -r ./src/css ./dist/src && mkdirp ./dist/demo/src/css && cp -r ./demo/src/css ./dist/demo/src",
+    "build": "npm-run-all clean_dist copy_static tsc wp",
+    "pack": "npm pack",
+    "build:package": "npm-run-all clean_dist copy_static tsc wp pack",
+    "start": "npm run build && webpack-dev-server --host 0.0.0.0 --disable-host-check --open",
+    "tsc": "tsc",
+    "wp": "webpack --mode development",
+    "ww": "webpack --watch --mode development",
+    "prepublishOnly": "npm run build",
+    "preversion": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "d3": "^5.9.2",
+    "jquery": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/jquery": "^3.3.31",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.4",
+    "webpack-dev-server": "^3.3.1",
+    "html-webpack-plugin": "^3.2.0",
+    "npm-run-all": "^4.0.2",
+    "mkdirp": "^0.5.1",
+    "html-loader": "^0.5.5",
+    "style-loader": "^1.1.3",
+    "css-loader": "^3.4.2",
+    "clean-webpack-plugin": "^3.0.0"
+  },
+  "files": [
+    "dist/src/**/*"
+  ]
+}
