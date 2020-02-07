@@ -1,4 +1,4 @@
-# Conditional Parallel Coordinates [#IBM]( https://github.com/IBM )
+# Conditional Parallel Coordinates [#IBMResearch]( https://www.research.ibm.com/ )
 
 Conditional Parallel Coordinates (CPC) are a generalization of the Parallel Coordinates visualization, where 
 a categorical value on axes can be clicked, to expand another level of Parallel Coordinates on its behalf. The
