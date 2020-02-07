@@ -1,6 +1,6 @@
 {
   "name": "@ibm/cpc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.ts",
   "types": "dist/index",
   "license": "GPL-3.0",
