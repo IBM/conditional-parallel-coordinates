@@ -6,7 +6,7 @@ CPC's original use is in the area of Visualization of AI and machine learning pi
 
 ![Animation showing Conditional Parallel Coordinates](conditional_parallel_coordinates.gif)
 
-##### Latest version: 1.0.4
+##### Latest version: 1.0.5
 
 ##### Contact: daniel.karl@ibm.com
 
