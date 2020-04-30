@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "d3": "^5.9.2",
-    "jquery": "^3.4.0"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "webpack": "^4.30.0",
